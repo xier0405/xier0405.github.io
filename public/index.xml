@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Aug 2026 23:45:09 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Esp32 Railway Map</title>
+      <link>http://localhost:1313/posts/esp32-railway-map/</link>
+      <pubDate>Wed, 12 Aug 2026 23:45:09 +0800</pubDate>
+      <guid>http://localhost:1313/posts/esp32-railway-map/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>這裡是xierㄉ自我介紹</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 12 Aug 2026 23:43:37 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;𝕒𝕓𝕠𝕦𝕥-𝕞𝕖&#34;&gt;𝕒𝕓𝕠𝕦𝕥 𝕞𝕖&lt;/h2&gt;
+&lt;p&gt;可以叫我希爾或是任何不冒犯的稱呼&lt;/p&gt;
+&lt;p&gt;我是一位跨性別女性,請以she/her稱呼(如果你叫我妹妹我會很開心的在地上打滾)&lt;/p&gt;
+&lt;p&gt;生理男心理女🏳️‍⚧️┊4/5&lt;/p&gt;
+&lt;p&gt;座標中部或南部(未來只有南部可以揪; ;&lt;/p&gt;
+&lt;p&gt;是個音遊人兼科技宅Owo!!&lt;/p&gt;
+&lt;h2 id=&#34;𝕘𝕒𝕞𝕖&#34;&gt;𝕘𝕒𝕞𝕖&lt;/h2&gt;
+&lt;p&gt;MaiMai&lt;/p&gt;
+&lt;p&gt;469道｜R12210｜外圈偶爾打打內圈｜常駐內圈的小丑.w.
+目前打11+ 12 的歌比較多,可以找我連機或是多推歌給我&amp;gt;&amp;lt;
+不知道今年可不可以上萬三&lt;/p&gt;
+&lt;p&gt;中二節奏&lt;/p&gt;
+&lt;p&gt;232道/R8.83
+最初是打中二,之後變成常常打mai了,所以變成中二很少打
+我覺得maimai比中二更符合人體工學(？&lt;/p&gt;
+&lt;p&gt;其他音遊&amp;hellip;&lt;/p&gt;
+&lt;p&gt;pjsk偶爾會打,可以揪&amp;gt;&amp;lt;
+其他音遊都是摸摸仔w 就是可能會開,但上次開還是上次的時候&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Wed, 12 Aug 2026 23:38:56 +0800</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;p&gt;大家好！這是我用 Hugo 架設的全新部落格。&lt;/p&gt;
+&lt;p&gt;今天我準備把之前做的 ESP32 專案記錄下來。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

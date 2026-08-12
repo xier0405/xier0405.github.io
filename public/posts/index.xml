@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Aug 2026 23:45:09 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Esp32 Railway Map</title>
+      <link>http://localhost:1313/posts/esp32-railway-map/</link>
+      <pubDate>Wed, 12 Aug 2026 23:45:09 +0800</pubDate>
+      <guid>http://localhost:1313/posts/esp32-railway-map/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Wed, 12 Aug 2026 23:38:56 +0800</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;p&gt;大家好！這是我用 Hugo 架設的全新部落格。&lt;/p&gt;
+&lt;p&gt;今天我準備把之前做的 ESP32 專案記錄下來。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
