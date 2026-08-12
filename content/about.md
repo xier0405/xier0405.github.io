@@ -1,6 +1,6 @@
 +++
 date = '2026-08-12T23:43:37+08:00'
-draft = true
+draft = false
 title = '這裡是xierㄉ自我介紹'
 +++
 
