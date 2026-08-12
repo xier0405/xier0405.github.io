@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人主頁 | 軟體開發與專案作品集</title>
+    <style>
+        /* 基礎樣式設定 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #eaeaea;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+        }
+        /* 區塊樣式 */
+        section {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        /* 技能標籤 */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background-color: #e8f4f8;
+            color: #2980b9;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        /* 專案列表 */
+        .project {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #eee;
+        }
+        .project:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .project h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #95a5a6;
+            font-size: 0.9em;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>shamash970405</h1>
+        <p class="subtitle">軟體開發愛好者 | 探索開源與系統技術</p>
+    </header>
+
+    <section id="about">
+        <h2>關於我</h2>
+        <p>你好！我對程式開發、作業系統以及物聯網專案充滿熱情。平時喜歡參與開源社群，並透過實作來驗證想法。這是我用來記錄學習歷程與展示作品的個人空間。</p>
+    </section>
+
+    <section id="skills">
+        <h2>技術與工具</h2>
+        <div class="skills-container">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Linux / Ubuntu</span>
+            <span class="skill-tag">ESP32 / 硬體整合</span>
+            <span class="skill-tag">Git & GitHub</span>
+            <span class="skill-tag">HTML & CSS</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>精選專案</h2>
+        
+        <div class="project">
+            <h3>🤖 LINE Bot 應用與部署實作</h3>
+            <p><strong>專案簡介：</strong>開發 LINE 聊天機器人，並透過 ngrok 將本機伺服器映射至外網進行測試與串接。</p>
+            <p><strong>學習亮點：</strong>完整梳理 API 串接邏輯與 ngrok 原理，並將過程彙整成詳細的學習歷程與備審資料。</p>
+        </div>
+
+        <div class="project">
+            <h3>🚂 台中車站實體動態鐵路圖</h3>
+            <p><strong>專案簡介：</strong>不依賴 Home Assistant，使用風力板、ESP32 微控制器與 LED 燈條，打造出實體的台鐵列車進站動態顯示地圖。</p>
+            <p><strong>學習亮點：</strong>結合軟體資料擷取與硬體電路控制，完成跨領域的創客專案。</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>聯絡方式</h2>
+        <p>歡迎透過以下方式與我交流：</p>
+        <ul>
+            <li>Email: <a href="mailto:chen970405@gmail.com">chen970405@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/shamash970405" target="_blank">github.com/shamash970405</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 shamash970405. Powered by GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
