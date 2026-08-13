@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = '希爾的家'
 theme = "PaperMod"
 [menu]
   [[menu.main]]
