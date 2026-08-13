@@ -8,3 +8,8 @@ theme = "PaperMod"
     name = "關於我"
     url = "/about/"
     weight = 10
+  [[menu.main]]
+    identifier = "home"
+    name = "HOME"
+    url = "/"
+    weight = 5
