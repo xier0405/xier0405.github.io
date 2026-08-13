@@ -63,6 +63,9 @@ pjsk偶爾會打,可以揪><
 ![也是圖片](/20260308.jpg)
 統測前拍的再見宣言,但左手esp32右手Arduino
 
+## 聯絡方式
+[Instagram](https://www.instagram.com/xier_18y/)
+[Threads](https://www.threads.com/@xier_18y?xmt=AQGzhIbjlcgrM7bxQwRNl_Hi68fLzg16sfAEwbTmgaAxagQ)
 
 ##
 更新於2026/8/13
