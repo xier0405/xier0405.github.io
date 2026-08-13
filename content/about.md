@@ -57,5 +57,12 @@ pjsk偶爾會打,可以揪><
 
 會玩Home Assistant然後自己ESPhome做感應器或控制器
 
+![圖片](/wut.jpg)
+這是照騙www目前已經放棄使用Arch Linux
+
+![也是圖片](/20260308.jpg)
+統測前拍的再見宣言,但左手esp32右手Arduino
+
+
 ##
 更新於2026/8/13
