@@ -12,4 +12,4 @@ theme = "hugo-theme-stack"
     identifier = "home"
     name = "HOME"
     url = "/"
-    weight = 5
+    weight = 10
