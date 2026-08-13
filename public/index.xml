@@ -6,15 +6,8 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Aug 2026 23:45:09 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 23:43:37 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Esp32 Railway Map</title>
-      <link>http://localhost:1313/posts/esp32-railway-map/</link>
-      <pubDate>Wed, 12 Aug 2026 23:45:09 +0800</pubDate>
-      <guid>http://localhost:1313/posts/esp32-railway-map/</guid>
-      <description>&lt;h1 id=&#34;早安我吃一點&#34;&gt;早安我吃一點&lt;/h1&gt;</description>
-    </item>
     <item>
       <title>這裡是xierㄉ自我介紹</title>
       <link>http://localhost:1313/about/</link>
@@ -27,7 +20,8 @@
 &lt;p&gt;座標中部或南部(未來只有南部可以揪; ;&lt;/p&gt;
 &lt;p&gt;是個音遊人兼科技宅Owo!!&lt;/p&gt;
 &lt;h2 id=&#34;𝕘𝕒𝕞𝕖&#34;&gt;𝕘𝕒𝕞𝕖&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://lng-tgk-aime-gw.am-all.net/common_auth/login?site_id=maimaidxex&amp;amp;redirect_url=https://maimaidx-eng.com/maimai-mobile/&amp;amp;back_url=https://maimai.sega.com/&#34;&gt;&lt;strong&gt;Maimai&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;舞萌&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/top.png&#34;&gt;
+&lt;a href=&#34;https://lng-tgk-aime-gw.am-all.net/common_auth/login?site_id=maimaidxex&amp;amp;redirect_url=https://maimaidx-eng.com/maimai-mobile/&amp;amp;back_url=https://maimai.sega.com/&#34;&gt;&lt;strong&gt;Maimai&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;469道｜R12210｜外圈偶爾打打內圈｜常駐內圈的小丑.w.&lt;/p&gt;
 &lt;p&gt;Friends Code:9040307714304&lt;/p&gt;
 &lt;p&gt;目前打11+ 12 的歌比較多,可以找我連機或是多推歌給我&amp;gt;&amp;lt;&lt;/p&gt;
@@ -47,8 +41,19 @@
 &lt;p&gt;喜歡玩開發版(esp32 or Arduino&lt;/p&gt;
 &lt;p&gt;會去SITCON或是COSCUP和大佬交流（跪&lt;/p&gt;
 &lt;p&gt;會玩Home Assistant然後自己ESPhome做感應器或控制器&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;圖片&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/Wut.jpg&#34;&gt;
+這是照騙www目前已經放棄使用Arch Linux&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;也是圖片&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/20260308.jpg&#34;&gt;
+統測前拍的再見宣言,但左手esp32右手Arduino&lt;/p&gt;
 &lt;h2&gt;&lt;/h2&gt;
 &lt;p&gt;更新於2026/8/13&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>為什麼推薦你加入資訊研討會</title>
+      <link>http://localhost:1313/posts/%E7%82%BA%E4%BB%80%E9%BA%BC%E6%8E%A8%E8%96%A6%E4%BD%A0%E5%8A%A0%E5%85%A5%E8%A8%8E%E6%9C%83/</link>
+      <pubDate>Wed, 12 Aug 2026 23:38:56 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E7%82%BA%E4%BB%80%E9%BA%BC%E6%8E%A8%E8%96%A6%E4%BD%A0%E5%8A%A0%E5%85%A5%E8%A8%8E%E6%9C%83/</guid>
+      <description>&lt;h1 id=&#34;為什麼推薦你參加資訊研討會&#34;&gt;為什麼推薦你參加資訊研討會&lt;/h1&gt;</description>
     </item>
     <item>
       <title>開始寫文章吧</title>
@@ -62,8 +67,10 @@
 &lt;p&gt;還記的8/8在 SITCON BoF透過比例認識了&lt;a href=&#34;https://blog.giveanornot.com/&#34;&gt;JN&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;比例跟我說他很喜歡部落格,因為部落格的文章品質比較高,也會比脆上的傻逼還要少(傻逼是我自己加的 聽比例這麼說&amp;hellip;我確實也有這樣的感覺,我也希望日後我可以拿手機看部落格的時間比看社群網站的時間多&lt;/p&gt;
 &lt;h3 id=&#34;執念ww&#34;&gt;執念ww&lt;/h3&gt;
-&lt;p&gt;還有很重要的是,我好像是最近吧&amp;hellip;就有一個想法,我很討厭大廠的壟斷（？不喜歡那種別人端答辯出來就吃的那種,雖然不能說每個平台都是答辯,但在像是ig或是threads(好好笑怎麼都是meta家的ww&lt;/p&gt;
-&lt;p&gt;從程式優化到使用者體驗&amp;hellip;（ig是限動上傳的地方Android會比iOS多一大塊黑黑的&amp;hellip;Threads就不用說了&amp;hellip;常常推吵架或對立或政治的文&amp;hellip; 這些點讓我感覺很厭惡了ww&lt;/p&gt;
+&lt;p&gt;有一個應該是我今年有的想法。&lt;/p&gt;
+&lt;p&gt;我很討厭大廠的壟斷,我的感覺是只要用她門的東西,就絕對會被她們所控制,
+比如前幾個月meta使用AI判定導致很多人的帳號因此被封鎖,但帳號被鎖的人只是正常的活著和呼吸而已www&lt;/p&gt;
+&lt;p&gt;以我自己的經歷,我是更改IG的連結而被要求輸入電話號碼驗證,有一次成功一次失敗,然後因為我要求發送很多簡訊導致我只能24小時後再試,這段期間我沒辦法透過ig聯絡人或是看貼文,當時被鎖的我萌生想要demeta的想法w&lt;/p&gt;
 &lt;h2 id=&#34;可是我會想把這裡當另一個說話的空間w&#34;&gt;可是我會想把這裡當另一個說話的空間w&lt;/h2&gt;
 &lt;p&gt;我雖然真的真的很討厭IG或是Threads那樣的壟斷w但我仍然會使用這兩個軟體和看blog,這裡只是我可以想說什麼就說什麼的空間,或是想偷看朋友最近在做什麼的ww,除非某天朋友們都來玩blog或是我沒有活網的需求的時候就會漸漸切換到blog了www&lt;/p&gt;
 &lt;p&gt;這是我的第一篇文章,謝謝你看到這裡&amp;gt;&amp;lt;&lt;/p&gt;</description>
