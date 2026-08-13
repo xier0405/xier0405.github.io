@@ -17,7 +17,7 @@ title = '這裡是xierㄉ自我介紹'
 是個音遊人兼科技宅Owo!!
 
 ## 𝕘𝕒𝕞𝕖
-![舞萌](topPlays.png)
+![舞萌](/top.png)
 [**Maimai**](https://lng-tgk-aime-gw.am-all.net/common_auth/login?site_id=maimaidxex&redirect_url=https://maimaidx-eng.com/maimai-mobile/&back_url=https://maimai.sega.com/)
 
 469道｜R12210｜外圈偶爾打打內圈｜常駐內圈的小丑.w.
