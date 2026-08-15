@@ -13,3 +13,8 @@ theme = "hugo-theme-stack"
     name = "HOME"
     url = "/"
     weight = 10
+  [[menu.main]]
+    identifier = "Friends"
+    name = "友列"
+    url = "/Friends/"
+    weight = 10
