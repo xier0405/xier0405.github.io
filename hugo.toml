@@ -15,6 +15,11 @@ theme = "hugo-theme-stack"
     weight = 10
   [[menu.main]]
     identifier = "Friends"
-    name = "友列"
+    name = "部落格友列"
     url = "/Friends/"
+    weight = 10
+  [[menu.main]]
+    identifier = "Findme"
+    name = "聯絡我"
+    url = "/Findme/"
     weight = 10
