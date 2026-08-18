@@ -64,8 +64,10 @@ pjsk偶爾會打,可以揪><
 統測前拍的再見宣言,但左手esp32右手Arduino
 
 ## 聯絡方式
-[Instagram](https://www.instagram.com/xier_18y/)
-[Threads](https://www.threads.com/@xier_18y?xmt=AQGzhIbjlcgrM7bxQwRNl_Hi68fLzg16sfAEwbTmgaAxagQ)
+
+聯絡方式和我的social media帳號在這裡
+
+[**在這裡哇阿><**](https://xier0405.github.io/findme/)
 
 ##
 更新於2026/8/13

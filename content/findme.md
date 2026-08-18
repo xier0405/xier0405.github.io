@@ -9,3 +9,5 @@ title = '聯絡方式'
 [**Threads**](https://www.threads.com/@xier_18y?xmt=AQGzhIbjlcgrM7bxQwRNl_Hi68fLzg16sfAEwbTmgaAxagQ)
 
 [**Github**](https://github.com/xier0405)
+
+[**mail**](mailto:chen970405＠gmail.com)
