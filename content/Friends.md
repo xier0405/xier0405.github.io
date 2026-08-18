@@ -13,4 +13,10 @@ title = '部落格的友列們~'
 
 [**JN**](https://blog.giveanornot.com/)
 
+[![資工小廢物 - JN 的露狗](https://blog.giveanornot.com/logo.webp)](https://blog.giveanornot.com/)
+
 電神電神電神(X
+
+[**Ruixue**](https://ruixue.cc.cd/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadoHZvZSpEH0Cugz-bNXBCegiv6jQR9EhNpcuOmZWjK7HiPhlhzbb0wbxZKow_aem_BdX3eXcX6HvqxVcyCPaubw)
+
+可愛ㄉRuixue

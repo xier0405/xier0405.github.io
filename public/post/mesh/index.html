@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="meshtastic是什麼?能吃嗎? meshtastic是一個開源的專案(以下稱esp32或是任何支持LoRa訊號的開發板叫板子\n先介紹專有名詞背後的意思\n1.LoRa:一種低功耗的無線通訊技術,通常用於空拍機或是meshtastic或是智慧城市或智慧農業,但頻寬小,傳輸速率低,不適合拿來傳輸大量資料或是影像\n2.板子或是開發版:板子是meshtastic傳輸資料的載體,因為手機沒有辦法直接傳輸LoRa訊號,所以需要透過開發版去使用USB或是藍芽連接手機,而板子有很多類型,有esp32的還有其他的（我就是買Esp32-S3來玩 但購買的時候要注意,台灣可以用的頻率是915Mhz,千萬別像主包一樣買到413或其他的。這樣可能會有法規風險\n3.節點:節點\n歐給繼續回到meshtastic是一個開源的專案w他是由使用者自行建立節點且不依賴伺服器與基礎建設的東西\n">
-<title>讓SITCON或是學生自組meshtastic網路</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="經過了前幾天的萬安演習,在行動網路斷線時我們該如何應對？ 我們或許沒辦法在斷網時聯絡其他人,但我們可以提前預防斷網或網路受限時我們可以透過meshtastic\nmeshtastic是一個開源的專案(以下稱esp32或是任何支持LoRa訊號的開發板叫板子\n先介紹專有名詞背後的意思\n1.LoRa:一種低功耗的無線通訊技術,通常用於空拍機或是meshtastic或是智慧城市或智慧農業,但頻寬小,傳輸速率低,不適合拿來傳輸大量資料或是影像\n2.板子或是開發版:板子是meshtastic傳輸資料的載體,因為手機沒有辦法直接傳輸LoRa訊號,所以需要透過開發版去使用USB或是藍芽連接手機,而板子有很多類型,有esp32的還有其他的（我就是買Esp32-S3來玩 但購買的時候要注意,台灣可以用的頻率是915Mhz,千萬別像主包一樣買到413或其他的。這樣可能會有法規風險\n3.節點:節點這個概念可以理解是轉發者,跟路上看到的基地台很像\n歐給繼續回到meshtastic是一個開源的專案w他是由使用者自行建立節點且不依賴伺服器與基礎建設的東西,同時這個東西她的功耗很低,大多的移動使用者會搭配使用18650電池,依據鎖使用的晶片類型,續航可達3天到5天（甚至更久 固定在家或其他地方的使用者會使用太陽能版+18650電池讓它運作\n圖片來自Reddit\n">
+<title>meshtastic是什麼?</title>
 
 
 <link rel="canonical" href="http://localhost:1313/post/mesh/">
@@ -12,13 +12,13 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
 
-<link rel="stylesheet" href="/scss/style.min.e62e09c60ba428a627e03568fa3df938f6a8224f815b5846f00816c17d4a0be4.css"><meta property='og:title' content="讓SITCON或是學生自組meshtastic網路">
-<meta property='og:description' content="meshtastic是什麼?能吃嗎? meshtastic是一個開源的專案(以下稱esp32或是任何支持LoRa訊號的開發板叫板子\n先介紹專有名詞背後的意思\n1.LoRa:一種低功耗的無線通訊技術,通常用於空拍機或是meshtastic或是智慧城市或智慧農業,但頻寬小,傳輸速率低,不適合拿來傳輸大量資料或是影像\n2.板子或是開發版:板子是meshtastic傳輸資料的載體,因為手機沒有辦法直接傳輸LoRa訊號,所以需要透過開發版去使用USB或是藍芽連接手機,而板子有很多類型,有esp32的還有其他的（我就是買Esp32-S3來玩 但購買的時候要注意,台灣可以用的頻率是915Mhz,千萬別像主包一樣買到413或其他的。這樣可能會有法規風險\n3.節點:節點\n歐給繼續回到meshtastic是一個開源的專案w他是由使用者自行建立節點且不依賴伺服器與基礎建設的東西\n">
+<link rel="stylesheet" href="/scss/style.min.e62e09c60ba428a627e03568fa3df938f6a8224f815b5846f00816c17d4a0be4.css"><meta property='og:title' content="meshtastic是什麼?">
+<meta property='og:description' content="經過了前幾天的萬安演習,在行動網路斷線時我們該如何應對？ 我們或許沒辦法在斷網時聯絡其他人,但我們可以提前預防斷網或網路受限時我們可以透過meshtastic\nmeshtastic是一個開源的專案(以下稱esp32或是任何支持LoRa訊號的開發板叫板子\n先介紹專有名詞背後的意思\n1.LoRa:一種低功耗的無線通訊技術,通常用於空拍機或是meshtastic或是智慧城市或智慧農業,但頻寬小,傳輸速率低,不適合拿來傳輸大量資料或是影像\n2.板子或是開發版:板子是meshtastic傳輸資料的載體,因為手機沒有辦法直接傳輸LoRa訊號,所以需要透過開發版去使用USB或是藍芽連接手機,而板子有很多類型,有esp32的還有其他的（我就是買Esp32-S3來玩 但購買的時候要注意,台灣可以用的頻率是915Mhz,千萬別像主包一樣買到413或其他的。這樣可能會有法規風險\n3.節點:節點這個概念可以理解是轉發者,跟路上看到的基地台很像\n歐給繼續回到meshtastic是一個開源的專案w他是由使用者自行建立節點且不依賴伺服器與基礎建設的東西,同時這個東西她的功耗很低,大多的移動使用者會搭配使用18650電池,依據鎖使用的晶片類型,續航可達3天到5天（甚至更久 固定在家或其他地方的使用者會使用太陽能版+18650電池讓它運作\n圖片來自Reddit\n">
 <meta property='og:url' content='http://localhost:1313/post/mesh/'>
 <meta property='og:site_name' content='希爾的家'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='專案Project' /><meta property='article:tag' content='想法idea' /><meta property='article:published_time' content='2026-08-12T23:38:56&#43;08:00'/><meta property='article:modified_time' content='2026-08-12T23:38:56&#43;08:00'/>
-<meta name="twitter:title" content="讓SITCON或是學生自組meshtastic網路">
-<meta name="twitter:description" content="meshtastic是什麼?能吃嗎? meshtastic是一個開源的專案(以下稱esp32或是任何支持LoRa訊號的開發板叫板子\n先介紹專有名詞背後的意思\n1.LoRa:一種低功耗的無線通訊技術,通常用於空拍機或是meshtastic或是智慧城市或智慧農業,但頻寬小,傳輸速率低,不適合拿來傳輸大量資料或是影像\n2.板子或是開發版:板子是meshtastic傳輸資料的載體,因為手機沒有辦法直接傳輸LoRa訊號,所以需要透過開發版去使用USB或是藍芽連接手機,而板子有很多類型,有esp32的還有其他的（我就是買Esp32-S3來玩 但購買的時候要注意,台灣可以用的頻率是915Mhz,千萬別像主包一樣買到413或其他的。這樣可能會有法規風險\n3.節點:節點\n歐給繼續回到meshtastic是一個開源的專案w他是由使用者自行建立節點且不依賴伺服器與基礎建設的東西\n">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='專案Project' /><meta property='article:published_time' content='2026-08-12T23:38:56&#43;08:00'/><meta property='article:modified_time' content='2026-08-12T23:38:56&#43;08:00'/>
+<meta name="twitter:title" content="meshtastic是什麼?">
+<meta name="twitter:description" content="經過了前幾天的萬安演習,在行動網路斷線時我們該如何應對？ 我們或許沒辦法在斷網時聯絡其他人,但我們可以提前預防斷網或網路受限時我們可以透過meshtastic\nmeshtastic是一個開源的專案(以下稱esp32或是任何支持LoRa訊號的開發板叫板子\n先介紹專有名詞背後的意思\n1.LoRa:一種低功耗的無線通訊技術,通常用於空拍機或是meshtastic或是智慧城市或智慧農業,但頻寬小,傳輸速率低,不適合拿來傳輸大量資料或是影像\n2.板子或是開發版:板子是meshtastic傳輸資料的載體,因為手機沒有辦法直接傳輸LoRa訊號,所以需要透過開發版去使用USB或是藍芽連接手機,而板子有很多類型,有esp32的還有其他的（我就是買Esp32-S3來玩 但購買的時候要注意,台灣可以用的頻率是915Mhz,千萬別像主包一樣買到413或其他的。這樣可能會有法規風險\n3.節點:節點這個概念可以理解是轉發者,跟路上看到的基地台很像\n歐給繼續回到meshtastic是一個開源的專案w他是由使用者自行建立節點且不依賴伺服器與基礎建設的東西,同時這個東西她的功耗很低,大多的移動使用者會搭配使用18650電池,依據鎖使用的晶片類型,續航可達3天到5天（甚至更久 固定在家或其他地方的使用者會使用太陽能版+18650電池讓它運作\n圖片來自Reddit\n">
     </head>
     <body class="
     article-page
@@ -134,7 +134,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/mesh/">讓SITCON或是學生自組meshtastic網路</a>
+            <a href="/post/mesh/">meshtastic是什麼?</a>
         </h2>
     
         
@@ -193,14 +193,17 @@
     <section class="article-content">
     
     
-    <h2 id="meshtastic是什麼能吃嗎">meshtastic是什麼?能吃嗎?
-</h2><p>meshtastic是一個開源的專案(以下稱esp32或是任何支持LoRa訊號的開發板叫板子</p>
+    <p>經過了前幾天的萬安演習,在行動網路斷線時我們該如何應對？ 我們或許沒辦法在斷網時聯絡其他人,但我們可以提前預防斷網或網路受限時我們可以透過meshtastic</p>
+<p>meshtastic是一個開源的專案(以下稱esp32或是任何支持LoRa訊號的開發板叫板子</p>
 <p>先介紹專有名詞背後的意思</p>
 <p>1.LoRa:一種低功耗的無線通訊技術,通常用於空拍機或是meshtastic或是智慧城市或智慧農業,但頻寬小,傳輸速率低,不適合拿來傳輸大量資料或是影像</p>
 <p>2.板子或是開發版:板子是meshtastic傳輸資料的載體,因為手機沒有辦法直接傳輸LoRa訊號,所以需要透過開發版去使用USB或是藍芽連接手機,而板子有很多類型,有esp32的還有其他的（我就是買Esp32-S3來玩 但購買的時候要注意,台灣可以用的頻率是915Mhz,千萬別像主包一樣買到413或其他的。這樣可能會有法規風險</p>
-<p>3.節點:節點</p>
-<p>歐給繼續回到meshtastic是一個開源的專案w他是由使用者自行建立節點且不依賴伺服器與基礎建設的東西</p>
 <p><img alt="這是我的板子，型號是Wireless Stick Lite (V3)然後是esp32 s3，只是我買錯頻率了；；導致在台灣沒辦法用" class="gallery-image" data-flex-basis="217px" data-flex-grow="90" height="1190" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/post/mesh/IMG_20260418_175315_451(1).jpg" srcset="/post/mesh/IMG_20260418_175315_451(1)_hu_b85b870c3bd25126.jpg 800w, /post/mesh/IMG_20260418_175315_451(1).jpg 1080w" width="1080"></p>
+<p>3.節點:節點這個概念可以理解是轉發者,跟路上看到的基地台很像</p>
+<p>歐給繼續回到meshtastic是一個開源的專案w他是由使用者自行建立節點且不依賴伺服器與基礎建設的東西,同時這個東西她的功耗很低,大多的移動使用者會搭配使用18650電池,依據鎖使用的晶片類型,續航可達3天到5天（甚至更久 固定在家或其他地方的使用者會使用太陽能版+18650電池讓它運作</p>
+<p><img class="gallery-image" data-flex-basis="288px" data-flex-grow="120" height="751" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/post/mesh/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_20260816_160356.png" srcset="/post/mesh/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_20260816_160356_hu_2cdf36b8d3b0c382.png 800w, /post/mesh/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_20260816_160356.png 904w" width="904">
+<a class="link" href="https://www.reddit.com/r/meshtastic/s/z5fvVO7wNX"  target="_blank" rel="noopener"
+    ><strong>圖片來自Reddit</strong></a></p>
 
 </section>
 
@@ -210,8 +213,6 @@
     <section class="article-tags">
         
             <a href="/tags/%E5%B0%88%E6%A1%88project/">專案Project</a>
-        
-            <a href="/tags/%E6%83%B3%E6%B3%95idea/">想法idea</a>
         
     </section>
 
