@@ -63,6 +63,24 @@ pjsk偶爾會打,可以揪><
 ![也是圖片](/20260308.jpg)
 統測前拍的再見宣言,但左手esp32右手Arduino
 
+## 𝕕𝕚𝕤𝕝𝕚𝕜𝕖
+
+雷點:不尊重or沒禮貌還有炫富的
+
+或是一認識我就跟我有肢體接觸的,拿我的任何事情開玩笑,有事沒事就公審別人的（我會覺得你很可怕
+
+可能雷你:做事猶豫不決不果斷 髒話或屁話 疑心病 扭扭捏捏的
+
+## 𝕝𝕚𝕜𝕖 𝕞𝕦𝕤𝕚𝕔
+
+V家或J pop聽比較多
+很不固定,但常常聽n-buna的白ゆき還有neru的其中幾首,會去mora.jp買無損音樂
+[**日文歌單**](https://open.spotify.com/playlist/4pISi8Zf4DuteYTegJReCF?si=1ce7323a0be14c5b)
+
+中文會聽草東 康士坦的變化球 美秀....
+可是真的很少聽也不是聽團仔,所以你問我哪首歌怎麼樣我會答不出來
+[**中文歌單**](https://open.spotify.com/playlist/1aW8FV2V8RObyhXjDFrKDx?si=2361e4d29bba4e20&pt=a4496b440f88242d4dec4b2ae9038d32)
+
 ## 聯絡方式
 
 聯絡方式和我的social media帳號在這裡
