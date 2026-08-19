@@ -47,6 +47,8 @@ pjsk偶爾會打,可以揪><
 
 使用系統ubuntu 26.04/主力設備ThinkPad T490
 
+[**在這裡哇阿><**](https://xier0405.github.io/my_devices/)
+
 目前有獨自維護的github專案,也很喜歡開源的作品
 
 最近會想要研究Linux Kernel這深奧且未知的區域w
