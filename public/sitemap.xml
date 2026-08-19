@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-08-16T00:23:56+08:00</lastmod>
+    <lastmod>2026-08-19T18:20:37+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/my_devices/</loc>
+    <lastmod>2026-08-19T18:20:37+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/findme/</loc>
     <lastmod>2026-08-16T00:23:56+08:00</lastmod>
