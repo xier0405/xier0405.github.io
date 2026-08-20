@@ -23,3 +23,8 @@ theme = "hugo-theme-stack"
     name = "聯絡我"
     url = "/Findme/"
     weight = 10
+  [[menu.main]]
+    identifier = "my devices"
+    name = "我的裝置"
+    url = "/my_devices/"
+    weight = 10
